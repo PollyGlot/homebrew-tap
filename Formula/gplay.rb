@@ -5,21 +5,21 @@
 class Gplay < Formula
   desc "Fast, lightweight CLI for the Google Play Developer API."
   homepage "https://github.com/PollyGlot/google-play-cli"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.0/gplay_0.4.0_darwin_amd64.tar.gz"
-      sha256 "a0ae3ee6652485dfee8f5c7fe3a8d93820b726946d34bedcd5f9035bba196b45"
+      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.1/gplay_0.4.1_darwin_amd64.tar.gz"
+      sha256 "f686ecde65f3e71b17b530945de785f9673f8877ba7300361ff3db5f319078ab"
 
       define_method(:install) do
         bin.install "gplay"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.0/gplay_0.4.0_darwin_arm64.tar.gz"
-      sha256 "9bf9e78584e70a771b1a7a6302da5204a5636dd87937cbcd09e8635f3ff5a656"
+      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.1/gplay_0.4.1_darwin_arm64.tar.gz"
+      sha256 "7ff4fe28df04c019c9027b5a93b15afa8a4c2e9a0c66df0e0ccc1e78b072caa8"
 
       define_method(:install) do
         bin.install "gplay"
@@ -29,15 +29,15 @@ class Gplay < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.0/gplay_0.4.0_linux_amd64.tar.gz"
-      sha256 "f291b26bf51b6a2523a9ceb3aff96ebdf0ed4a228a1c8994f495b7bc72c49b48"
+      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.1/gplay_0.4.1_linux_amd64.tar.gz"
+      sha256 "e8da7c1ac93d7fe1fb4ea393cb309e0320824f45c58ff9f2f2af9884d9dc9771"
       define_method(:install) do
         bin.install "gplay"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.0/gplay_0.4.0_linux_arm64.tar.gz"
-      sha256 "272fe61cb1c5deb07e98d93917399d5cececacb51aedfdde4097d616324c2dc8"
+      url "https://github.com/PollyGlot/google-play-cli/releases/download/v0.4.1/gplay_0.4.1_linux_arm64.tar.gz"
+      sha256 "1c5688f58850df2ad7f84172c0f8335befdc54e6f9abf773954c2172a24e0fe6"
       define_method(:install) do
         bin.install "gplay"
       end
