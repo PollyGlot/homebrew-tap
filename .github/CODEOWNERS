@@ -1,0 +1,5 @@
+# CODEOWNERS for homebrew-tap
+# https://docs.github.com/articles/about-code-owners
+
+# Default owner for everything in the repo.
+*       @PollyGlot
