@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md : homebrew-tap
 
-Tap Homebrew PollyGlot — formules dans `Formula/`, actuellement `gplay`
+Tap Homebrew PollyGlot : formules dans `Formula/`, actuellement `gplay`
 (Google Play Developer CLI).
 
 - Bump de version = mettre à jour `url` + `sha256` dans la formule ; les
