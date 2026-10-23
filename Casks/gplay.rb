@@ -6,25 +6,25 @@ cask "gplay" do
     end
   end
 
-  version "2.3.1"
+  version "2.3.2"
 
   on_macos do
     on_arm do
-      sha256 "6cf5e0a2e9a04f2b0fa5b681e94fb068bc0602393eb82c7800c24aa572546f3a"
+      sha256 "1bdac36a5012652f437663cef528b8e1abb487ef5524669c63a863b05813ae42"
       url "https://github.com/PollyGlot/google-play-cli/releases/download/v#{version}/gplay_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c91e917022892a077f587812dcb7bd4d9d0c1d539ffd56affdb6820c1f3377cc"
+      sha256 "80e313a6dadbcd9db80fb9890410be0b0cc2bba00813c0cdbf0bdf648ca4f925"
       url "https://github.com/PollyGlot/google-play-cli/releases/download/v#{version}/gplay_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "140f2a9ba94fa34f94a6e507782c44820a31c6496adaa02cb14180977b23a1cd"
+      sha256 "416577b11a0af78d8ae4e0d16256e788048e8bcf5f8d37b5dd6c700a84110724"
       url "https://github.com/PollyGlot/google-play-cli/releases/download/v#{version}/gplay_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0098a03e6ef31c4c4a38e581d68f726e466a1a9e2ddd0c5eb3709503ff885562"
+      sha256 "98cd3bde5fc97ea5ddc001b333c49294d7ae08ddfc310ead1b52475958932e94"
       url "https://github.com/PollyGlot/google-play-cli/releases/download/v#{version}/gplay_#{version}_linux_amd64.tar.gz"
     end
   end
